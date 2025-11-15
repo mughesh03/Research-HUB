@@ -1,0 +1,20 @@
+{
+  "name": "grantscript",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
